@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>คำนวณ BMI</title>
+    <title>BMI calculator</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,16 +12,14 @@
 <body>
     <div id="banner">
         <div class="content">
-            <h1>คำนวณค่า BMI</h1>
-            <h3>น้ำหนัก:</h3>
-            <input type="text" id="w"><br>
-            <h3>ส่วนสูง:</h3>
-            <input type="text" id="h"><br>
-
+            <h1>คำนวน ค่า BMI</h1>
+            <h3 class="text">กรุณาระบุน้ำหนัก (กิโลกรัม):</h3>
+            <input type="text" id="weight"><br>
+            <h3 class="text">กรุณาระบุส่วนสูง(เซนติเมตร):</h3>
+            <input type="text" id="height"><br>
             <button id="btn" onclick="BMI()">คำนวณ BMI</button>
-            <h1>ผลลัพธ์:</h1>
-            <h1 id="result"></h1>
-
+            <h2>ผลลัพธ์:</h2>
+            <h3 id="result"></h3>
         </div>
     </div>
 
